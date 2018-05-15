@@ -1,0 +1,45 @@
+extends layout
+
+block content
+    .uni
+        .uni__item
+            h1
+                div
+                    img(src="./img/uni.png")
+                i=bachelors.name
+            p.rating
+                |Rating : &nbsp;
+                span=bachelors.rating
+            h1
+                span=bachelors.date
+            .uni__description
+                .uni__left
+                    div
+                        span
+                            |Number of students : &nbsp;
+                        p=bachelors.numberOfStudents
+                    div
+                        span
+                            | Faculty staff : &nbsp;
+                        p=bachelors.facultyStaff
+                    div
+                        span
+                            | Accomodation : &nbsp;
+                        p=bachelors.accomodation
+                .uni__right
+                    div
+                        span
+                            | Website : &nbsp;
+                        p=bachelors.website
+                    div
+                        span
+                            | Languages : &nbsp;
+                        p=bachelors.languages
+                    div
+                        span
+                            | Avarage Fee : &nbsp;
+                        p=bachelors.avarageFee
+            a(href='#').open
+                span Check &nbsp;
+                p faculties available
+

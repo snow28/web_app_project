@@ -1,0 +1,398 @@
+db.test2.insert(
+{
+  "first" : {
+    "name" : "University of Lodz" ,
+    "date" : "May 24 , 1945",
+    "description" : "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition." ,
+    "website" : "http://www.uni.lodz.pl" ,
+    "languages" : "English, Polish",
+    "numberOfStudents" : "29,652" ,
+    "facultyStaff" : "1,906" ,
+    "avarageFee"  : "<2K$" ,
+    "fees" : "200$" ,
+    "accomodation" : "Yes" ,
+    "contacts" : {
+      "emails" : {
+        "Liliana_Lato" : {
+          "Position" : "Head of International Relations Office",
+          "email" : "liliana.lato@uni.lodz.pl"
+        },
+        "Aneta_Sorbjan" : {
+          "Position" : "Deputy Head of International Relations Office",
+          "email" : "anetasorbjan@uni.lodz.pl"
+        }
+      },
+      "phone" : "tel. (+48) 42 635 40 37"
+    },
+    "rating" : "801-1000" ,
+    "faculties" : {
+      "Computer_Science" : {
+        "name" : "Computer Science (Informatyka)" ,
+        "description" : "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher." ,
+        "Erasmus" : "Yes" ,
+        "ECTS" : "183",
+        "duration" : "6 semesters (3 academic years)" ,
+        "website" : "http://www.math.uni.lodz.pl"
+      },
+      "Mathematic" : {
+        "name" : "BSc in Mathematics Specialization: Financial Mathematics" ,
+        "description" : "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty." ,
+        "Erasmus" : "Yes" ,
+        "ECTS" : "183",
+        "duration" : "6 semesters (3 academic years)" ,
+        "website" : "math.uni.lodz.p"
+      },
+      "Statistics" : {
+        "name" : "BSc Stastics" ,
+        "description" : "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way." ,
+        "Erasmus" : "Yes" ,
+        "ECTS" : "183",
+        "duration" : "6 semesters (3 academic years)" ,
+        "website" : "math.uni.lodz.p"
+      }
+    }
+  }
+}
+);
+
+
+
+db.Bachelor2.insert([{
+"name" : "Warsawska Polytechnika" ,
+"date" : "September 14 , 1925",
+"description" : "The University of Warsawa is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition." ,
+"website" : "http://www.uni.lodz.pl" ,
+"languages" : "English, Polish",
+"numberOfStudents" : "22,652" ,
+"facultyStaff" : "2,906" ,
+"avarageFee"  : "<4K$" ,
+"fees" : "100$" ,
+"accomodation" : "No" ,
+"contacts" : {
+"emails" : {
+"Liliana_Lato" : {
+"Position" : "Head of International Relations Office",
+"email" : "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan" : {
+"Position" : "Deputy Head of International Relations Office",
+"email" : "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone" : "tel. (+48) 42 635 40 37"
+},
+"rating" : "700" ,
+"faculties" : {
+"Computer_Science" : {
+"name" : "Computer Science (Informatyka)" ,
+"description" : "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "http://www.math.uni.lodz.pl"
+},
+"Mathematic" : {
+"name" : "BSc in Mathematics Specialization: Financial Mathematics" ,
+"description" : "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+},
+"Statistics" : {
+"name" : "BSc Stastics" ,
+"description" : "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+}
+}
+},
+{
+"name" : "University of Lodz" ,
+"date" : "May 24 , 1945",
+"description" : "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition." ,
+"website" : "http://www.uni.lodz.pl" ,
+"languages" : "English, Polish",
+"numberOfStudents" : "29,652" ,
+"facultyStaff" : "1,906" ,
+"avarageFee"  : "<2K$" ,
+"fees" : "200$" ,
+"accomodation" : "Yes" ,
+"contacts" : {
+"emails" : {
+"Liliana_Lato" : {
+"Position" : "Head of International Relations Office",
+"email" : "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan" : {
+"Position" : "Deputy Head of International Relations Office",
+"email" : "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone" : "tel. (+48) 42 635 40 37"
+},
+"rating" : "801-1000" ,
+"faculties" : {
+"Computer_Science" : {
+"name" : "Computer Science (Informatyka)" ,
+"description" : "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "http://www.math.uni.lodz.pl"
+},
+"Mathematic" : {
+"name" : "BSc in Mathematics Specialization: Financial Mathematics" ,
+"description" : "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+},
+"Statistics" : {
+"name" : "BSc Stastics" ,
+"description" : "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+}
+}
+}
+]);
+
+
+
+{
+"First" : {
+{
+"first" : {
+"name" : "University of Lodz" ,
+"date" : "May 24 , 1945",
+"description" : "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition." ,
+"website" : "http://www.uni.lodz.pl" ,
+"languages" : "English, Polish",
+"numberOfStudents" : "29,652" ,
+"facultyStaff" : "1,906" ,
+"avarageFee"  : "<2K$" ,
+"fees" : "200$" ,
+"accomodation" : "Yes" ,
+"contacts" : {
+"emails" : {
+"Liliana_Lato" : {
+"Position" : "Head of International Relations Office",
+"email" : "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan" : {
+"Position" : "Deputy Head of International Relations Office",
+"email" : "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone" : "tel. (+48) 42 635 40 37"
+},
+"rating" : "801-1000" ,
+"faculties" : {
+"Computer_Science" : {
+"name" : "Computer Science (Informatyka)" ,
+"description" : "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "http://www.math.uni.lodz.pl"
+},
+"Mathematic" : {
+"name" : "BSc in Mathematics Specialization: Financial Mathematics" ,
+"description" : "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+},
+"Statistics" : {
+"name" : "BSc Stastics" ,
+"description" : "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+}
+}
+}
+}
+} ,
+
+"Second" : {
+"first" : {
+"name" : "University of Lodz" ,
+"date" : "May 24 , 1945",
+"description" : "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition." ,
+"website" : "http://www.uni.lodz.pl" ,
+"languages" : "English, Polish",
+"numberOfStudents" : "29,652" ,
+"facultyStaff" : "1,906" ,
+"avarageFee"  : "<2K$" ,
+"fees" : "200$" ,
+"accomodation" : "Yes" ,
+"contacts" : {
+"emails" : {
+"Liliana_Lato" : {
+"Position" : "Head of International Relations Office",
+"email" : "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan" : {
+"Position" : "Deputy Head of International Relations Office",
+"email" : "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone" : "tel. (+48) 42 635 40 37"
+},
+"rating" : "801-1000" ,
+"faculties" : {
+"Computer_Science" : {
+"name" : "Computer Science (Informatyka)" ,
+"description" : "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "http://www.math.uni.lodz.pl"
+},
+"Mathematic" : {
+"name" : "BSc in Mathematics Specialization: Financial Mathematics" ,
+"description" : "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+},
+"Statistics" : {
+"name" : "BSc Stastics" ,
+"description" : "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way." ,
+"Erasmus" : "Yes" ,
+"ECTS" : "183",
+"duration" : "6 semesters (3 academic years)" ,
+"website" : "math.uni.lodz.p"
+}
+}
+}
+}
+
+
+}
+
+
+
+
+db.webApp.insert({
+"Computer": {
+"first": {
+"name": "University of Lodz",
+"date": "May 24 , 1945",
+"description": "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition.",
+"website": "http://www.uni.lodz.pl",
+"languages": "English, Polish",
+"numberOfStudents": "29,652",
+"facultyStaff": "1,906",
+"avarageFee": "<2K$",
+"fees": "200$",
+"accomodation": "Yes",
+"contacts": {
+"emails": {
+"Liliana_Lato": {
+"Position": "Head of International Relations Office",
+"email": "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan": {
+"Position": "Deputy Head of International Relations Office",
+"email": "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone": "tel. (+48) 42 635 40 37"
+},
+"rating": "801-1000",
+"faculties": {
+"Computer_Science": {
+"name": "Computer Science (Informatyka)",
+"description": "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "http://www.math.uni.lodz.pl"
+},
+"Mathematic": {
+"name": "BSc in Mathematics Specialization: Financial Mathematics",
+"description": "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "math.uni.lodz.p"
+},
+"Statistics": {
+"name": "BSc Stastics",
+"description": "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "math.uni.lodz.p"
+}
+}
+}
+},
+"Ss": {
+"first": {
+"name": "University of Lodz",
+"date": "May 24 , 1945",
+"description": "The University of Lodz is one of the leading institutions of higher education in Poland. It was established in 1945 as a successor of educational institutions active in Lodz in earlier times. The 12 faculties of the University provide programmes in 76 fields of study and 160 specializations. In addition, the University offers doctoral programmes, more than 60 postgraduate curricula including an MBA programme, and programmes financed by the ESF. About 10,000 students complete their programmes at the University of Lodz every year. Our students, together with those studying in Lodz within Erasmus exchange, come from about 80 different countries. In this truly international atmosphere everyone can experience the cultural diversity of both the city and the institution. The 38,000 students that attend classes at different faculties of the University are taught by 2,226 academic teachers, 586 of whom bear the highest academic rank. The interest in studying at the University of Lodz is determined by high quality of instruction and modern programmes of study offered in Polish, English and French, and adapted to the changing demands of the labour market. The University treats international cooperation as a way to foster its development and continue the city’s tradition.",
+"website": "http://www.uni.lodz.pl",
+"languages": "English, Polish",
+"numberOfStudents": "29,652",
+"facultyStaff": "1,906",
+"avarageFee": "<2K$",
+"fees": "200$",
+"accomodation": "Yes",
+"contacts": {
+"emails": {
+"Liliana_Lato": {
+"Position": "Head of International Relations Office",
+"email": "liliana.lato@uni.lodz.pl"
+},
+"Aneta_Sorbjan": {
+"Position": "Deputy Head of International Relations Office",
+"email": "anetasorbjan@uni.lodz.pl"
+}
+},
+"phone": "tel. (+48) 42 635 40 37"
+},
+"rating": "801-1000",
+"faculties": {
+"Computer_Science": {
+"name": "Computer Science (Informatyka)",
+"description": "These full-time, three-year long studies enable students to gain the Bachelor's degree in Computer Science. The programme encompasses software engineering, computer networks, programming, internet portals, computer graphics and artificial intelligence. The graduates of the first level Computer Science programme acquire knowledge and skills in the area of: programming, implementation and verification of computer software components, supervision of middle-sized computer systems and practical use of computer tools. A graduate can find employment as an administrator of computer systems, a programmer, a webmaster, an operator and service attendant of information systems as well as, after completing additional requirements, a Computer Science teacher.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "http://www.math.uni.lodz.pl"
+},
+"Mathematic": {
+"name": "BSc in Mathematics Specialization: Financial Mathematics",
+"description": "A graduate of mathematics with a specialization in Financial Mathematics is familiar with basic statistical methods, the fundamentals of microeconomics and insurance. She/He also gained the ability to use mathematical tools in insurance problems and data analysis. Graduates have the knowledge and skills to use databases, use spreadsheets and specialized software to perform calculations, experiments, simulations, and data analysis. These studies in particular prepare for the job of actuary. An actuary is a business professional who deals with the measurement and management of risk and uncertainty.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "math.uni.lodz.p"
+},
+"Statistics": {
+"name": "BSc Stastics",
+"description": "The study programme described herein leads to an award of a BA in Management and Finance. The objective of this study programme is to educate specialists capable of working as middle level officers in business corporations and as assistants to top managers in various organisations, especially in business corporations. The graduates are to acquire knowledge and skills necessary to use appropriate management methods and tools, including financial and accounting techniques used for supporting management processes in a professional and ethical way. The BA in Management and Finance study programme is addressed to individuals ready to work in organisations characterised by demanding norms and standards and operating in multi-cultural, global environment. The candidates are expected to have the capacity of communicating in English as well as an openness for cooperation, ability to think logically, identify and structure problems. The candidates should be genuinely interested in economic and social processes. Graduates of the BA in Management and Finance study programme will obtain the fundamental knowledge in social sciences and will become acquainted with techniques and methods of supporting management processes in business organisations – in particular related to finance and accounting. The graduates will also obtain the skills necessary to use these techniques professionally. In particular the graduates will be capable of identifying and structuring problems of organisations. They will be capable of preparing high quality information for decision making by internal as well as external stakeholders. They will know contemporary principles governing preparation of financial statements, commonly adopted cost accounting and managerial accounting methods as well as fundamentals of financial management. The graduates will be poised to search for optimal solutions to organisational problems based on acquired knowledge and skills and to implement these solutions in a professional and ethical way.",
+"Erasmus": "Yes",
+"ECTS": "183",
+"duration": "6 semesters (3 academic years)",
+"website": "math.uni.lodz.p"
+}
+}
+}
+}
+}
+);
+

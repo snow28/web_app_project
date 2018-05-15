@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+        title Poland Universities
+        link(rel='stylesheet' href='/css/hamburger-menu.css')
+        link(rel='stylesheet' href='/css/reset.css')
+        link(rel='stylesheet' href='/css/style.css')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Limelight')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900')
+    body
+        nav.menu
+            .menu__name-wrapper
+                .menu__close-button
+                    <button class="hamburger hamburger--collapse open-menu-js" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                    </button>
+                .menu__name
+                    h1 Poland for students
+            .menu__navigation
+                ul
+                    li.menu__list-item
+                        a(href='/').homeButton Home Page
+                    li.menu__list-item
+                        a(href='#').open-programs-js Study Programs
+                        img(src="./img/arrow_down.png").arrow
+                        ul.menu__secondary.menu__secondary-js
+                            li
+                                a(href='/bachelor').bachelorButton Bachelor
+                            li
+                                a(href='#') Master
+                            li
+                                a(href='#') PhD
+                    li.menu__list-item
+                        a(href='#') Language Courses
+                        //img(src="./img/arrow_down.png").arrow
+                    li.menu__list-item
+                        a(href='#') About
+            .menu__footer
+                button Contact Us
+
+        .content
+            block content
+
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+        script(src='/js/main.js')

@@ -1,0 +1,134 @@
+.menu
+  .arrow
+    width: 7px
+    transform: rotate(90deg)
+    position: relative
+    left: 10px
+    top: 1px
+  &__name
+    font-family: 'Limelight', cursive
+    color: red
+    font-size: 25px
+  &__navigation
+    font-family: 'Roboto', sans-serif
+    .menu__secondary
+      display: none
+  &__list-item
+    a
+      text-decoration: none
+      color: #777
+      &:hover
+        color: black
+        font-weight: bold
+
+
+@media screen and (min-width: 1000px)
+  .menu
+    width: 20%
+    height: 100%
+    position: fixed
+    left: 0px
+    top: 0px
+    border-right: 1px solid lightgray
+    &__close-button
+      display: none
+    &__name-wrapper
+      border-bottom: 1px solid lightgrey
+      text-align: center
+      height: 20%
+      display: flex
+    &__name
+      width: 99%
+      margin: auto
+    &__navigation
+      ul
+        .menu__list-item
+          min-height: 50px
+          line-height: 50px
+          border-bottom: 1px solid lightgrey
+          text-align: center
+          .selected
+            color: black
+            font-weight: bold
+          .selectedInner
+            color: red
+            font-weight: bold
+        .menu__secondary
+          position: relative
+          top: -10px
+          margin-bottom: 5px
+          text-align: left
+          width: 60%
+          margin-left: 40%
+          li
+            height: 35px
+            a
+              &:hover
+                color: red
+        .opened
+          display: block
+    &__footer
+      position: fixed
+      bottom: 0px
+      width: 20%
+      button
+        font-family: 'Roboto', sans-serif
+        height: 40px
+        width: 80%
+        margin-left: 10%
+        background-color: red
+        border: none
+        font-size: 17px
+        font-weight: bold
+        color: white
+        margin-bottom: 50px
+        &:hover
+          background-color: blue
+          cursor: pointer
+
+
+@media screen and (max-width: 1000px)
+  .menu
+    background-color: white
+    height: 50px
+    line-height: 50px
+    width: 100%
+    border-bottom: 1px solid lightgrey
+    &__name
+      display: inline-block
+      margin-left: 50px
+      &-wrapper
+        padding-left: 15px
+    &__close-button
+      display: inline-block
+      button
+        padding: 0
+        span
+          top: 5px
+    .opened
+      top: 0px
+    &__navigation
+      z-index: 9
+      background-color: white
+      transition-duration: 1s
+      position: relative
+      top: -260px
+      ul
+        .opened
+          display: block
+      .menu__secondary
+        position: relative
+        top: -10px
+        margin-bottom: 5px
+        text-align: left
+        margin-left: 50px
+        li
+          height: 35px
+          a
+            &:hover
+              color: red
+    &__list-item
+      border-bottom: 1px solid lightgrey
+      padding-left: 15px
+    &__footer
+      display: none
